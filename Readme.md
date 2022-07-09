@@ -1,0 +1,1 @@
+Hello, this project was developed as a way to study and train the Javascript language.

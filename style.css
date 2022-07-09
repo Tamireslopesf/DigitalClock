@@ -1,0 +1,32 @@
+body {   
+   background-image: linear-gradient(to left bottom, #845ec2, #7466c8, #626ecc, #4e74cf, #377ad0, #2687d8, #1394df, #00a1e5, #00b9ee, #00cdda, #00ddaa, #14e766); 
+}
+
+.box{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 300px;
+    font-family: 'Orbitron', sans-serif;
+    height: 100vh;
+}
+
+#clock{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;  
+}
+
+#day_of_week{
+    margin-top: 20px;
+    font-size: 35px;
+    color: white; 
+}
+
+#date{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;  
+}
