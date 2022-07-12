@@ -30,3 +30,24 @@ body {
     font-size: 40px;
     color: white;  
 }
+
+@media only screen and (max-width : 425px){
+    body{
+        background-repeat: no-repeat;
+    }
+    .box{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #clock{
+        font-size: 50px;
+    }
+    #day_of_week{
+        font-size: 15px;
+    }
+    #date{
+         font-size: 25px;
+    }
+}
